@@ -3,11 +3,11 @@ import torch
 torch.set_default_dtype(torch.float64)
 
 import gpytorch
-from dgpnp.utils import (
+from npdgp.utils import (
     ls2pr,
     pr2ls,
 )
-from dgpnp.integrals import I_interdom
+from npdgp.integrals import I_interdom
 from math import pi
 
 

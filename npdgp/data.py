@@ -16,16 +16,10 @@
 import numpy as np
 import os
 import pandas
-from scipy.io import loadmat
-
 from io import BytesIO
 from urllib.request import urlopen
 from zipfile import ZipFile
-
 import csv
-import bz2
-import gzip
-from ftplib import FTP
 
 
 class Dataset(object):

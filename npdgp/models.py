@@ -5,15 +5,13 @@ torch.set_default_dtype(torch.float64)
 import time
 import matplotlib.pyplot as plt
 from torch.utils.checkpoint import checkpoint_sequential
-from dgpnp.layers import NPGPLayer, FastNPGPLayer
-from dgpnp.utils import (
+from npdgp.layers import NPGPLayer, FastNPGPLayer
+from npdgp.utils import (
     init_layers,
     to_numpy,
     batch_assess,
 )
-from sklearn.metrics import roc_auc_score
 import wandb
-import torch.nn.functional as F
 from math import pi, log, ceil
 
 

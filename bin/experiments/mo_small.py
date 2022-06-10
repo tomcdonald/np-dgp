@@ -1,29 +1,22 @@
 import torch
 
 torch.set_default_dtype(torch.float64)
-from dgpnp.data import Datasets
-from dgpnp.models import NPDeepGP
-from dgpnp.utils import (
+from npdgp.data import Datasets
+from npdgp.models import NPDeepGP
+from npdgp.utils import (
     batch_assess,
     to_numpy,
     kmeans_initialisations,
-    gpu_kmeans_initialisations,
 )
 import numpy as np
 import argparse
 import os
-import json
 import pathlib
 from datetime import datetime
 import wandb
-import matplotlib.pyplot as plt
-from matplotlib.gridspec import GridSpec
 
 
-from dgpnp.baseline_models import fit_gpytorch_mogp
-import gpytorch
-import stheno
-import lab as B
+from npdgp.baseline_models import fit_gpytorch_mogp
 from sklearn.metrics import mean_absolute_percentage_error, mean_squared_error
 
 

@@ -1,9 +1,9 @@
 import torch
 
 torch.set_default_dtype(torch.float64)
-from dgpnp.data import Datasets
-from dgpnp.models import NPDeepGP
-from dgpnp.utils import (
+from npdgp.data import Datasets
+from npdgp.models import NPDeepGP
+from npdgp.utils import (
     batch_assess,
     to_numpy,
     kmeans_initialisations,

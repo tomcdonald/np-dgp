@@ -4,9 +4,9 @@ torch.set_default_dtype(torch.float64)
 
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
-from dgpnp import integrals
-from dgpnp.base_gps import FilterGP, InterDomainInputGP
-from dgpnp.utils import (
+from npdgp import integrals
+from npdgp.base_gps import FilterGP, InterDomainInputGP
+from npdgp.utils import (
     ls2pr,
     pr2ls,
     to_numpy,

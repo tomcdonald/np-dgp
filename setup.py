@@ -17,9 +17,9 @@ requirements = [
 ]
 
 setup(
-    name="dgpnp",
+    name="npdgp",
     author="Magnus Ross & Thomas M. McDonald",
-    packages=["dgpnp"],
+    packages=["npdgp"],
     description="Implementation of NP-CGP and NP-DGP.",
     long_description=open("README.md").read(),
     install_requires=requirements,
