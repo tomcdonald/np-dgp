@@ -18,5 +18,10 @@ The `dry_run` argument allows the model to be trained without Weights & Biases m
 
 ## Citation
 ```
-TODO
+@article{mcdonald2022shallow,
+  title={Shallow and Deep Nonparametric Convolutions for Gaussian Processes},
+  author={McDonald, Thomas M and Ross, Magnus and Smith, Michael T and {\'A}lvarez, Mauricio A},
+  journal={arXiv preprint arXiv:2206.08972},
+  year={2022}
+}
 ```
